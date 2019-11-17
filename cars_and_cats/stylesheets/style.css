@@ -1,0 +1,35 @@
+*{
+	outline: 1px solid gold;
+	margin-bottom: 0px;
+}
+.contain{
+	/*display: inline-block;*/
+
+	width: 1400px;
+	height: 800px;
+}
+.contain .left{
+	/*display: inline-block;*/
+	float: left;
+	width: 699px;
+}
+.contain .right{
+	/*display: inline-block;*/
+	float: right;
+	width: 699px;
+}
+.container{
+	width: 1400px;
+	height: 800px;
+	background: black;
+
+}
+.container .top{
+	background: green;
+	padding-top: 100px;
+}
+.container .bottom{
+	background: red;
+	margin-top: 100px;
+	padding-top: 100px;
+}
